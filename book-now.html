@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="book.css">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display|Roboto:300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <header>
+            <div class="logo">
+               
+                <a href="index.html"><img src="Images/hotel%20logo.jpg" alt="Hotel logo "></a>
+            </div>
+          
+            <nav>
+                  
+                <div class="navbutton">
+                    <a href="index.html">Home</a>
+                </div>
+            </nav>
+        
+        </header>
+
+      <div class="FormMain"></div>
+      <p>HOTEL REGISTRATION FORM</p>
+      <p>Westgardens Hotel and Conference Centre<br>
+ Abbeyfeilds,Sallins , Naas, Co. Kildare, W89YKE7 </p>
+      
+      <form action="mail.php" method="post">
+       <!--this is name box-->
+        <div class="inputwrapper">
+         
+         <label for="name" class="newline">Full Name:</label> 
+         <input type="text" name="name" id="name">
+          
+          </div> 
+            <!--this is email box-->
+             <div class="inputwrapper">
+         
+         <label for="addres" class="newline">Address:</label> 
+         <input type="text" name="address" id="address">
+          
+          </div> 
+          <div class="inputwrapper">
+         
+         <label for="Phone" class="newline">Phone Number:</label> 
+         <input type="tel" name="number" id="number">
+          </div> 
+          
+          <div class="inputwrapper">
+             
+         <label for="email" class="newline">Email</label>   
+          <input type="email" name="email" id="email" placeholder="marrydol@sample.com">  
+                 
+        </div>
+         <p1>Booking Information:</p1>
+          <div class="inputwrapper">
+         
+         <label for="Date" class="newline">Date of arrival:</label> 
+         <input type="date" name="date" id="date">
+          </div> 
+        
+       
+         <div class="inputwrapper">
+         
+         <label for="Date" class="newline">Date of departure:</label> 
+         <input type="date" name="date" id="date">
+          </div> 
+        <div class="inputwrapper">
+         
+         <label for="Number" class="newline">Number of Guests:</label> 
+         <input type="tel" name="number" id="number">
+          </div>
+           <div class="inputwrapper">
+             <select name="room" id="room">
+                 <option value="Not-chosen">Choose kind of Room</option>
+                 <option value="Deluxe">Deluxe</option>
+                 <option value="Family Room">Family Room</option>
+                 <option value="Single">Single Room</option>
+              <option value="Double">Double Room</option>
+             <option value="Bungalow">Bungalow</option>
+             </select> 
+              
+          </div>        
+        <div class="inputwrapper">
+        <textarea name="name" id="message" cols="100" rows="5" placeholder="Notes/Special requirements:"></textarea>  
+          
+        </div>
+       
+           <div class="inputwrapper">
+                <input type="checkbox" name="email-sub" id="email-sub" value="yes-sign-me-up" checked>
+                <lebel for="email-sub" class="email-sub">Sign me up for Email Newsletter</lebel>
+               
+          </div>
+          
+          
+          
+       
+          <div class="inputwrapper">
+            <div class="feedback">
+                    <p>How would you like to be contacted?</p>
+                  <input type="radio" name="contacte-preference" id="phone" value="phone">
+    <lable for="phone" class="margin-right-a">Phone</lable>
+                  <input type="radio" name="contacte-preference" id="email" value="email">
+            <lable for="email" class="Email">Email</lable>
+              </div>
+          </div>
+        
+        
+          <input type="submit" value="Submit" class="mybutton">
+        
+        
+        
+      </form>
+        <footer>
+		<p>&copy; The Westgarden Hotel 2021</p> 
+	</footer>
+  
+        
+    </div>
+
+</body>
+
+      
+
+</html>

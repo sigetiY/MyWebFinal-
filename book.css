@@ -1,0 +1,136 @@
+html {
+        background-image: linear-gradient(#04152f, #d1d1d1);    
+}
+
+body {
+    
+    font-family: 'High Tower Text', sans-serif;
+    color: #e5e566;
+    font-size: 1.5rem;
+
+}
+body p{
+    text-align: center;
+    color: #e2e267;
+    
+}
+
+a {
+    color:#fdfd8f;
+    text-decoration:none;
+}
+
+.container {
+    
+    width:1024px;
+    min-height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.navbutton {
+    
+    border: 1px solid #fdfd8f;
+    padding: 11px 25px;
+    font-family:  'Playfair Display', serif;
+    display: inline-block;
+    position:relative;
+    
+}
+
+header {
+    display :flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid gray;
+}
+
+p {
+    
+    line-height: 1.9rem;
+    margin-bottom: 0.5rem;
+}
+
+nav a.mybutton {
+    
+    margin-left:30px;
+}
+
+.mybutton {
+    
+    background-color: white;
+    color:#04152f;
+    font-family:  'Playfair Display', serif;
+    padding: 11px 25px;
+    display:inline-block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 12px;
+    box-shadow: 5px 5px 5px black ; 
+}
+
+
+.mybutton:hover{
+    
+    background-color:#5275aa;
+    transition-duration: 1s;
+    
+}
+
+ 
+.inputwrapper{
+    margin-bottom: 22px;
+}
+input[type=text], input[type=email],textarea{
+    padding: 12px 20px;
+    width: 100%;
+    font-family: 'georgia',sans-serif;
+    font-size: 1.1rem;
+    box-sizing: border-box;
+}
+.newline{
+    display: block;
+    margin-bottom: 10px;
+   
+}
+.email-sub{
+    color: #1a3f77;
+    font-family: 'High Tower Text', sans-serif; }
+
+.Email{
+   color: #1a3f77;
+   font-family: 'High Tower Text', sans-serif; 
+}
+.margin-right-a{
+    margin-right: 20px;
+    color: #1a3f77;
+    font-family: 'High Tower Text', sans-serif;
+}
+input[type=radio]{
+    margin-right: 10px;    
+}
+
+.feedback p{
+    font-family: 'High Tower Text', sans-serif;
+    color: #1a3f77; 
+    font-size: 1.5rem;
+    text-align: left;
+    
+}
+
+form{
+    margin: 40px 0;
+}
+footer p{
+ 
+     color: #04152f;
+     font-family: 'High Tower Text', sans-serif;
+     font-size:1.2rem;
+     margin-top: 10vh;
+     text-align: left;
+    
+}
+
+
+

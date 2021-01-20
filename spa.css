@@ -1,0 +1,116 @@
+*{
+//    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+}
+header{
+    color: #f2f0c0;
+    display :flex;
+    text-align: center;
+    padding-top: 4%;
+    padding-left: 2%;
+    display :flex;
+    justify-content: space-between;
+    align-items: center;
+     padding-bottom: 40px;
+     border-bottom: 1px solid #acba81;
+ 
+
+
+     
+}
+header h{
+    font-family: 'High Tower Text', sans-serif;
+    font-size: 3.3rem;
+    color:#f2f0c0;
+    font-weight: bold; 
+    font-style: italic;
+    
+}
+
+.navbutton {
+    
+    border: 1px solid #f2f0c0;
+    padding: 11px 25px;
+    font-family:  'Playfair Display', serif;
+    display: inline-block;
+    position:relative;
+    color:#f2f0c0;
+    margin-left: -160%;
+    margin-top: 5%;
+}
+a {
+    color:#f2f0c0;
+    text-decoration:none;
+    font-size: 2em;
+}
+
+h {
+	width: 90%;
+    margin: 0 auto;
+    font-weight: bold;
+    font-size: 1.8em;
+}
+p {
+	padding-top: 10%;
+}
+p,p1 {
+	font-size: 1.4em;
+	width: 90%;
+    margin: 0 auto;
+}
+.main{
+ background: #d7e89f; 
+}
+header{
+    background-image: linear-gradient( #04152f,#d7e89f); 
+    height: 20vh;
+}
+
+.row{
+	width:100%;
+	clear:both;
+	font-size: x-large;
+	text-align: center;
+     font-family: 'High Tower Text', sans-serif;
+}
+
+img{
+	max-width: 374px;
+	width:100%;
+}
+.col1,.col2{
+	display:inline;
+	float:left;
+	text-align: center;
+    font-family: 'High Tower Text', sans-serif;
+	
+}
+.col1{
+	width:30%;
+}
+.col2{
+	padding-top: 10%;
+	width:40%;
+}
+.last {
+	word-spacing: 20px;
+	letter-spacing: 10px;
+}
+
+footer{
+	background-image: linear-gradient(#d7e89f,#04152f); 
+   padding-top:10vh;
+    height: 10vh;
+}
+footer p1{
+ 
+    color: #04152f;
+    font-family: 'High Tower Text', sans-serif;
+    font-size: 24px;
+ 
+    
+    
+}
